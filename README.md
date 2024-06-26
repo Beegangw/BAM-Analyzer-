@@ -19,7 +19,5 @@ To use this tool, follow these steps:
    ```sh
    C:\users\beegangw\downloads\BAM_Inspector
 
-
-
 **Acknowledgements**
 Special thanks to requiem for all his support on this tool!
