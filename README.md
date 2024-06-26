@@ -15,7 +15,7 @@ BAM_Inspector is a C++ program designed for forensic analysis, focusing on the B
 To use this tool, follow these steps:
 
 1. Open Command Prompt as an administrator. 
-2. Enter the path to BAM_Inspector (No longer need to download Rawcopy.exe manually, the program will do it for you):
+2. You no longer need to manually download RawCopy.exe from the repo so simply enter the path to BAM_Inspector:
    ```sh
    C:\users\beegangw\downloads\BAM_Inspector
 
