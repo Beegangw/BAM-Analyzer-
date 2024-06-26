@@ -9,6 +9,12 @@ This repository contains a C++ program designed for forensic analysis, focusing 
 3. Deleted File Detection: The program will check for the existence of the file. 
 
 
+
+How to use this tool? 
+
+1. Open command prompt as admin 
+2. Enter the path to Bam Inspector (e.g "C:\users\beegangw\downloads\Bam Inspector")
+
 Shoutout requiem for all his support on this tool! 
 
 
