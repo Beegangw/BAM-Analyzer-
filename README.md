@@ -1,22 +1,25 @@
 # BAM_Inspector
 
-This repository contains a C++ program designed for forensic analysis, focusing on the Background Activity Moderator (BAM) artifacts found in the Windows Registry. The tool offers a range of functionalities, including:
+BAM_Inspector is a C++ program designed for forensic analysis, focusing on the Background Activity Moderator (BAM) artifacts found in the Windows Registry. This tool provides a range of functionalities to assist in forensic investigations.
 
-1. Listing BAM Keys: It enumerates the BAM keys that have an execution date logged after the last logon time of the PC and lack a valid digital signature
+## Features
 
-2. Deleted Key Detection: A key feature of this tool is its ability to check for deleted BAM key (It will use a different method of checking for deleted keys dependent on the version of windows)
+1. **Listing BAM Keys**: Enumerates BAM keys that have an execution date logged after the last logon time of the PC and lack a valid digital signature.
+   
+2. **Deleted Key Detection**: Checks for deleted BAM keys using different methods depending on the version of Windows.
+   
+3. **Deleted File Detection**: Verifies the existence of files associated with BAM keys.
 
-3. Deleted File Detection: The program will check for the existence of the file. 
+## Usage
+
+To use this tool, follow these steps:
+
+1. Open Command Prompt as an administrator.
+2. Enter the path to BAM_Inspector:
+   ```sh
+   C:\users\beegangw\downloads\BAM_Inspector
 
 
 
-How to use this tool? 
-
-1. Open command prompt as admin 
-2. Enter the path to Bam Inspector (e.g "C:\users\beegangw\downloads\Bam Inspector")
-
-Shoutout requiem for all his support on this tool! 
-
-
-
-
+**Acknowledgements**
+Special thanks to requiem for all his support on this tool!
