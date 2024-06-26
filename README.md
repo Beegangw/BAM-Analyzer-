@@ -6,7 +6,7 @@ BAM_Inspector is a C++ program designed for forensic analysis, focusing on the B
 
 1. **Listing BAM Keys**: Enumerates BAM keys that have an execution date logged after the last logon time of the PC and lack a valid digital signature.
    
-2. **Deleted Key Detection**: Checks for deleted BAM keys using different methods depending on the version of Windows. *There is a chance this may result in a false positive, so I would not consider it a bannable offense.*
+2. **Deleted Key Detection**: Checks for deleted BAM keys using different methods depending on the version of Windows. [REMOVED UNTIL FALSES ARE FIXED]
    
 3. **Deleted File Detection**: Verifies the existence of files associated with BAM keys.
 
